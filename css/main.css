@@ -1,0 +1,42 @@
+/* general styles */
+*
+{
+    margin:0;
+    padding:0;
+}
+
+
+body {
+	background-color:#000;
+    background-image: -webkit-radial-gradient(600px 300px, circle, green, yellow 60%);
+
+    background-image: -moz-radial-gradient(600px 300px, circle, orange, yellow 60%);
+
+    background-image: -o-radial-gradient(600px 300px, circle, blue, #bababa 60%);
+  
+  background-image: radial-gradient(600px 300px, circle, #ffffff, red 60%);
+ 
+   color:#fff;
+   
+ font:14px/1.3 Arial,sans-serif;
+  
+ min-height:1000px;
+
+}
+
+.container {
+    width:100%;
+
+}
+.container > * {
+  display:block;
+   margin:50px auto;
+}
+
+
+/* tutorial styles */
+
+#scene {
+    background-image:url(../images/.jpg);
+    position:relative;
+}
